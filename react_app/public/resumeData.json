@@ -1,0 +1,80 @@
+{
+  "main": {
+    "name":"Full Stack Software Engineer",
+    "occupation":"Full Stack Software Engineer",
+    "description":"Python | Java | Node.js | Express | MySQL | Android | Flask | Machine Learning | ARCore",
+    "image":"profilepic.png",
+    "bio":"Graduate Computer Applications student from DCU having attained a first-class honors degree and graduating 2nd in the year with an overall average of 85%. Strong problem solving skills with a keen interest in software development.",
+    "contactmessage":"You can reach me through any of the following mediums.",
+    "email": "russellbrady456@gmail.com",
+    "phone": "(087) 164-7913",
+    "address":{
+      "street":"Ballinacross, Granard,",
+      "city":"Co. Longford,",
+      "state":"Ireland.",
+      "zip": ""
+    },
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/russell.brady.167",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/russell-brady-926751145/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/russell-brady",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/russell_brady1/",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Dublin City University",
+        "degree":"BSc in Computer Allications",
+        "graduated":"November 2019",
+        "description":"Graduate Computer Applications student from DCU having attained a first-class honors degree and graduating 2nd in the year with an overall average of 85%. Awarded DCU President's Award for Innovation for designing and developing a skin condition classification app as part of a two person team which helps to self-diagnose skin conditions. Awarded best paper award for literature review titled ‘From Monolith to Multilith: Software Systems Design Implications’ as part of 4 person team out of 41 teams. Currently pushing to publish the paper in an IEEE conference next March. Recipient of DCU scholarship award for excellence in leaving cert (555 points). Invited to present at EdTech 2019 for designing and developing augmented reality application for teaching technical graphics and to talk on it’s possible impacts in teaching through augmented reality"
+      },
+      {
+        "school":"Cnoc Mhuire Granard",
+        "degree":"Secondary School",
+        "graduated":"June 2015",
+        "description":"Achieved a leaving certificate result of 555 points. Attained an A1 in Physics, A2 in Maths and an A2 in Design & Communication Graphics. Awarded student of the year award in leaving cert out of a year of approximately 90 students for high achievement and excellence in school. Recipient of student mentor award in leaving cert year for mentoring a small group of 1st year students and helping them settle into life at secondary school."
+      }
+    ],
+    "work":[
+      {
+        "company":"Software Development Intern",
+        "title":"Synchronoss Technologies",
+        "years":"April 2018 - September 2018",
+        "description":"● Worked as an Android Developer on a small agile team of 4 people to develop the companies own white label email Android application. \n● Tasked with designing and developing numerous features in the app from scratch where no UI wireframes existed. Implemented dynamic solutions so that the needs of individual customers could be tailored for. \n● Tasked with increasing unit test coverage throughout the app, resulting in an increase in code coverage in the app and the reduction in technical debt in the project backlog.\n● Liaised with the projects UI designers on a daily basis to ensure that the product being developed aligned with the designs that had been created. \n● Took action upon finding bugs in the app by following a process of raising tickets, making the other team members aware of the bug at daily standups and then finding the problem and implementing a solution to remove the bug."
+      },
+      {
+        "company":"QA Analyst Intern",
+        "title":"Synchronoss Technologies",
+        "years":"May 2017 - September 2017",
+        "description":"● Worked as part of an agile QA team in the testing of a messaging app due to be released in Japan in September 2017. ● Led usability testing of the messaging app implementing ISO 9241-11 usability metrics. Created a review, comparison and usability study on the messaging app based on these metrics which was presented to management. ● Involved in Integration and System testing stages, executing client and API related tests as well performing daily Sanity checks of the application, performing Smoke testing on any new build as they were made available as well as conducting exploratory testing of the app to find and report any bugs found. ● Acted as a point of contact between the Dublin office and the other test teams in Japan and Bangalore. Developed strong relationships with these teams and liaised with them in trying to pinpoint and solve any problems in testing. This process involved managing time-zones. ● Partook in and won an internal intern project competition as part of a four-person team to design, develop and present two internal applications to staff and management."
+      }
+    ],
+    "skills":[]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Russell worked as an intern the Messaging QA team at Synchronoss. He worked on one of the mobile messaging projects, during his time with us he has shown he has a great appetite to learn new skills. He quickly got up to speed in both his knowledge of the product and the test processes being used within the team. He became a valuable member of the team, contributing well at standup meetings and during his working day. He communicated well with team members at all levels both locally and remotely. It was a pleasure to work with him and highly recommend him to any team.",
+        "user":"Tony O'Malley - Senior Manager QA at Synchronoss Technologies"
+      }
+    ]
+  }
+}

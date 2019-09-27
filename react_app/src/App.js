@@ -1,36 +1,60 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import { Layout, Navigation, Header, Drawer, Content } from 'react-mdl';
-import Main from './components/main';
-import { Link } from 'react-router-dom';
+import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testimonials';
 
-function App() {
-  return (
-    <div className="demo-big-content">
-        <Layout>
-            <Header className="header-color" title="Title" scroll>
-                <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact Me</Link>
-                </Navigation>
-            </Header>
-            <Drawer title="Title">
-                <Navigation>
-                  <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About Me</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact Me</Link>
-                </Navigation>
-            </Drawer>
-            <Content>
-                <div className="page-content" />
-                <Main/>
-            </Content>
-        </Layout>
-    </div>
-  );
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      resumeData: {},
+      githubRepos: null
+    };
+  }
+
+  getResumeData(){
+    fetch('./resumeData.json')
+    .then((response) => response.json())
+    .then((findresponse)=> {
+      this.setState({
+        resumeData:findresponse
+      })
+    })
+  }
+
+  getGithubRepos(){
+    fetch('https://API.github.com/users/russell-brady/repos')
+    .then((response) => response.json())
+    .then((findresponse)=> {
+      this.setState({
+        githubRepos:findresponse
+      })
+    })
+  }
+
+  componentDidMount(){
+    this.getResumeData();
+    this.getGithubRepos();
+  }
+
+  render() {
+    return (
+      <div className="App">
+          <Header data={this.state.resumeData.main}/>
+          <About data={this.state.resumeData.main}/>
+          <Resume data={this.state.resumeData.resume}/>
+          <Portfolio data={this.state.githubRepos}/>
+          <Testimonials data={this.state.resumeData.testimonials}/>
+          <Contact data={this.state.resumeData.main}/>
+          <Footer data={this.state.resumeData.main}/>
+      </div>
+    );
+  }
 }
 
 export default App;
