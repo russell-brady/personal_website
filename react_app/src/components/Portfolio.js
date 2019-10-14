@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import YouTubePlayer from './YouTubePlayer';
 
 class Portfolio extends Component {
 
@@ -42,8 +43,10 @@ class Portfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>
+            <YouTubePlayer videoId='jq96pwiRbJ8'/>
           </div>
-      </div>
+
+      </div>     
    </section>
     );
   }
