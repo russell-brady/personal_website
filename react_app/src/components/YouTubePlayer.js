@@ -14,8 +14,8 @@ class YouTubePlayer extends Component {
 
   render () {
     const opts = {
-      maxHeight: '390',
-      maxWidth: '640'
+      height: '50%',
+      width: '30%'
     }
     const {videoId} = this.props
     return (
