@@ -9,8 +9,8 @@ You may wish to fork this repository or remove my remote origin and add your own
 To download the repository and install dependencies, run the following commands:
 
 ```bash
-git clone git://github.com/mldangelo/personal-site.git
-cd personal-site
+git clone https://github.com/russell-brady/personal_website.git
+cd react-app
 npm install
 ```
 
