@@ -2,6 +2,18 @@
 
 https://russell-brady.github.io/personal_website/
 
+### Set up
+
+You may wish to fork this repository or remove my remote origin and add your own. 
+
+To download the repository and install dependencies, run the following commands:
+
+```bash
+git clone git://github.com/mldangelo/personal-site.git
+cd personal-site
+npm install
+```
+
 ### Changing the data in the website
 
 In order to change the data in the website, open the resumeData.json file inside the public folder in react-app. All of the personal data which is populated in the app comes from this folder. 
