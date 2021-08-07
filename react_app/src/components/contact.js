@@ -18,10 +18,14 @@ class Contact extends Component {
          <div className="contact-social-links">
 
             {/* email*/}
-            <a><i className="fa fa-envelope" aria-hidden="true"></i><span><b>Email:</b> <br/>{email}</span></a>
-
-            {/* phone*/}
-            <a><i className="fa fa-phone" aria-hidden="true"></i><span><b>Phone:</b> <br/>{phone}</span></a>
+            <div className={"row"}>
+              <div className={"col col-6"}>
+                <a><i className="fa fa-envelope" aria-hidden="true"></i><span><b>Email:</b> <br/>{email}</span></a>
+              </div>
+              <div className={"col col-6"}>
+                <a><i className="fa fa-phone" aria-hidden="true"></i><span><b>Phone:</b> <br/>{phone}</span></a>
+              </div>
+            </div>
 
          </div>
 

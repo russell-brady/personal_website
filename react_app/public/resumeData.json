@@ -2,9 +2,9 @@
   "main": {
     "name":"Full Stack Software Engineer",
     "occupation":"Full Stack Software Engineer",
-    "description":"Python | Java | Node.js | Express | MySQL | Android | Flask | Machine Learning | ARCore",
+    "description":"Spring Boot | Kotlin | Java | SQL | Vue.js | JavaScript",
     "image":"profilepic.png",
-    "bio":"Graduate Computer Applications student from DCU having attained a first-class honors degree and graduating 2nd in the year with an overall average of 85%. Strong problem solving skills with a keen interest in software development.",
+    "bio":"A full stack software engineer with 2 years’ experience working on backend applications using Spring Boot and Kotlin/Java and on frontend SPA written using Vue.js and JavaScript. Strong problem-solving skills with a keen interesting in the process of taking business requirements, architecting a solution and implementing. A huge advocate for test-driven development (TDD) and for testing in general.",
     "contactmessage":"You can reach me through any of the following mediums.",
     "email": "russellbrady456@gmail.com",
     "phone": "(087) 164-7913",
@@ -15,11 +15,6 @@
       "zip": ""
     },
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/russell.brady.167",
-        "className":"fa fa-facebook"
-      },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/russell-brady-926751145/",
@@ -54,6 +49,12 @@
       }
     ],
     "work":[
+      {
+        "company":"Full Stack Software Engineer",
+        "title":"ClarusONE Sourcing Services, LLP",
+        "years":"September 2019 – Present",
+        "description":"● Working closely on the large-scale refactoring of a legacy server-side rendered application to a restful application which is used for sourcing pharmaceuticals. ● Heavily involved in the design and build of a greenfield Vue.js SPA as we incrementally migrate the monolith from server rendered application to restful application. ● Have led the design and development of numerous large new features, providing value to the business in the multi-millions. ● Designed and implemented a number of spring boot microservices from the ground up. Examples include a commenting service which provided a commenting capability to various features in the main application, and a reporting service with which the main application interacts with using an azure message bus to send events which were then stored in snowflake for analytics team to consume. ● Implementing backend functionality using Spring Boot and Hibernate ORM to interact with PostgreSQL and Snowflake data sources. Strong knowledge of Spring MVC, Spring IOC, Spring Transactions, Spring AOP and Spring Security modules. ● Currently leading an effort to reduce pre-existing tech-debt in the system such as reducing N+1 queries to increase performance and re-architect some poorly modelled parts of the application."
+      },
       {
         "company":"Software Development Intern",
         "title":"Synchronoss Technologies",
